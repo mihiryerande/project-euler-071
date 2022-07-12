@@ -15,9 +15,10 @@
 
 from fractions import Fraction
 from math import floor
+from typing import Tuple
 
 
-def main(n_mid, d_mid, d_max):
+def main(n_mid: int, d_mid: int, d_max: int) -> Tuple[int, int]:
     """
     Returns the numerator and denominator of the reduced proper fraction
       occurring immediately before the fraction `n_mid`/`d_mid`
